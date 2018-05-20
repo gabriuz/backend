@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.19
+FROM sdhibit/rpi-baseimage
 
 # Use baseimage-docker's init system.
 CMD ["/sbin/my_init"]
